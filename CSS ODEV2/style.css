@@ -1,0 +1,64 @@
+.conteiner {
+    width: 351px;
+    height: 113px;
+    margin: 0 auto;
+}
+
+.conteiner2 {
+    width: 1350px;
+    height: 70px;
+    margin: 0 auto;
+    background-color:#ECEFF1;
+}
+
+.box {
+    width: 490px;
+    height: 80px;
+    background-color: 	#B2DFDB;
+    float: left;
+    margin-left: 85px;
+    margin-right: 2px;
+}
+
+.box2 {
+    width: 270px;
+    height: 80px;
+    background-color:	#80CBC4;
+    float: left;
+    margin-right: 2px;
+}
+
+.box3 {
+    width: 586px;
+    height: 80px;
+    background-color:	#4DB6AC;
+    float: left;
+}
+
+.center {
+    padding-top: 3px;
+    padding-left: 43%;
+}
+
+.center2 {
+    padding-left: 32%;
+}
+
+.textfield {
+    width: 300px;
+    margin-left: 38%;
+}
+
+.mail {
+    width: 180px;
+    margin-left: 35%;
+}
+
+.buton {
+    margin-left:41%;
+    margin-top: -1%;
+}
+
+.buton2 {
+    margin-left: 38%;
+}
