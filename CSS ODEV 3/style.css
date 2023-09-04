@@ -1,0 +1,141 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container header{
+    width: 100%;
+    padding: 15px 0;
+    align-items: center;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.container header a {
+    display: inline-block;
+    margin: 7px 11px;
+    text-decoration: none;
+    color: rgba(0,0,0,.87);
+    font-size: 13px;
+}
+
+.container header a:hover {
+    text-decoration: underline;
+}
+
+.container header img {
+    width: 22px;
+    height: 22px;
+    margin: 0 20px;
+    color: black;
+    
+}
+
+.container header img:hover {
+    background-color: #999da2;
+    border: 3px solid #999da2;
+    border-radius: 15px; 
+}
+
+.content {
+    margin-top: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.content img {
+    width: 272;
+    height: 92;
+    margin-bottom: 30px;
+}
+
+.content form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #fff;
+    border: 1px solid #dfe1e5;
+    padding: 0 10px;
+    border-radius: 30px;
+}
+
+.content form input {
+    border: none;
+    outline: none;
+    width: 403px;
+    height: 44px;
+}
+
+.content form i#search {
+    margin-right: 7px;
+}
+
+.content form i {
+    padding: 10px;
+    font-size: 18px;
+    cursor: pointer;
+    color: gray;
+}
+
+.content button {
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    color: #3c4043;
+    font-size: 14px;
+    margin: 20px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+}
+
+.content button:hover {
+    border: 1px solid rgb(111, 111, 111)
+}
+
+.footer .location {
+    padding: 15px 30px;
+    border-bottom: 1px solid #dadce0;
+    font-size: 15px;
+    background: #f2f2f2;
+    color: #70757a;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.footer .footer-box {
+    background: #f2f2f2;
+    font-size: 15px;
+    color: #70757a;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 12px;
+}
+
+.footer-box .item {
+    padding: 15px;
+}
+
+.item a {
+    text-decoration: none;
+    color: #999da2;
+    padding: 0 10px;
+}
+
+.footer-box .item a:hover {
+    text-decoration: underline;
+}
+
+.space {
+    width: 100%;
+    height: 229px;
+}
